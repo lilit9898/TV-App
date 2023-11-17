@@ -1,0 +1,36 @@
+.feauturedContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+
+.feuturedImg {
+  width: 100%;
+  height: 100%;
+}
+
+.movieInfo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 300px;
+  gap: 20px;
+}
+
+.category {
+  font-size: 36px;
+  color: rgba(119, 126, 133, 0.898);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movieDetails {
+  font-size: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.movieDescription {
+  word-wrap: break-word;
+  width: 850px;
+  font-size: 30px;
+}
